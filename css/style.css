@@ -1,0 +1,76 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #e9f6fb;
+  margin: 0;
+}
+.container {
+  max-width: 430px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 32px rgba(33,128,141,0.25);
+}
+h2 {
+  margin-top: 0;
+}
+.progress {
+  margin-bottom: 20px;
+}
+.bar {
+  width: 100%;
+  height: 8px;
+  background: #cccccc;
+  border-radius: 4px;
+  margin-top: 6px;
+}
+#progressBar {
+  height: 100%;
+  width: 10%;
+  background: #21908d;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  background: #f0f5f7;
+  margin: 8px 0;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+li.selected {
+  background: #21908d;
+  color: #fff;
+}
+li:hover:not(.selected) {
+  background: #b6f0ed;
+}
+button {
+  font-size: 17px;
+  padding: 10px 26px;
+  border: none;
+  background: #21908d;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 16px;
+  transition: background 0.2s;
+}
+button:disabled {
+  background: #93e7e8;
+  cursor: not-allowed;
+}
+#result {
+  text-align: center;
+}
+.hidden {
+  display: none;
+}
+#restartBtn {
+  background: #3ecd63;
+}
