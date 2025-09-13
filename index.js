@@ -1,5 +1,5 @@
 const quizData = [
-  { question: "What is the capital of France?", options: ["London", "Berlin", "Paris", "Madrid", "Rome"], correct: 2 },
+  { question: "How many days RBC survives?", options: ["100 days", "50 days", "120 days", "80 days", " 150 days"], correct: 2 },
   { question: "Which planet is known as the Red Planet?", options: ["Venus", "Mars", "Jupiter", "Saturn", "Mercury"], correct: 1 },
   { question: "What is the largest mammal?", options: ["African Elephant", "Giraffe", "Blue Whale", "Hippopotamus", "Polar Bear"], correct: 2 },
   { question: "In which year did World War II end?", options: ["1943", "1944", "1945", "1946", "1947"], correct: 2 },
