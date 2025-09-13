@@ -1,5 +1,5 @@
 const quizData = [
-  { question: "How many days RBC survives?", options: ["100 days", "50 days", "120 days", "80 days", " 150 days"], correct: 2 },
+  { question: "Who is the father of Computers?", options: ["Bjarne Stroustrup", "James Gosling", "Charles Babbage", "Dennis Ritchie", "None"], correct: 2 },
   { question: "A computer program that converts assembly language to machine language is", options: ["Compiler", "Assembler", "Interpreter", "Comparater", "None"], correct: 1 },
   { question: "Total bits used by the IPv6 address is", options: ["64 bits", "256 bits", "128 bits", "32 bits", "8 bits"], correct: 2 },
   { question: "What else is a command interpreter called?", options: ["Prompt", "Kernel", "Shell", "Command", "Terminal"], correct: 2 },
