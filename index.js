@@ -1,14 +1,14 @@
 const quizData = [
   { question: "How many days RBC survives?", options: ["100 days", "50 days", "120 days", "80 days", " 150 days"], correct: 2 },
-  { question: "Which planet is known as the Red Planet?", options: ["Venus", "Mars", "Jupiter", "Saturn", "Mercury"], correct: 1 },
-  { question: "What is the largest mammal?", options: ["African Elephant", "Giraffe", "Blue Whale", "Hippopotamus", "Polar Bear"], correct: 2 },
-  { question: "In which year did World War II end?", options: ["1943", "1944", "1945", "1946", "1947"], correct: 2 },
-  { question: "Chemical symbol for gold?", options: ["Go", "Gd", "Au", "Ag", "Al"], correct: 2 },
+  { question: "A computer program that converts assembly language to machine language is", options: ["Compiler", "Assembler", "Interpreter", "Comparater", "None"], correct: 1 },
+  { question: "Total bits used by the IPv6 address is", options: ["64 bits", "256 bits", "128 bits", "32 bits", "8 bits"], correct: 2 },
+  { question: "What else is a command interpreter called?", options: ["Prompt", "Kernel", "Shell", "Command", "Terminal"], correct: 2 },
+  { question: "What is a table joined with itself called?", options: ["Equi Join", "Outer Join", "Self-Join", "Join", "Natural Join"], correct: 2 },
   { question: "Web styling language?", options: ["JavaScript", "Python", "CSS", "Java", "C++"], correct: 2 },
-  { question: "Smallest unit of matter?", options: ["Molecule", "Atom", "Proton", "Electron", "Neutron"], correct: 1 },
-  { question: "Largest ocean?", options: ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean", "Southern Ocean"], correct: 3 },
-  { question: "Who painted Mona Lisa?", options: ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Michelangelo", "Claude Monet"], correct: 2 },
-  { question: "Fastest land animal?", options: ["Lion", "Cheetah", "Leopard", "Gazelle", "Greyhound"], correct: 1 }
+  { question: "The standard length of the MAC address is", options: ["32 bits", "48 bits", "128 bits", "64 bits", "16 bits"], correct: 1 },
+  { question: "Which of the following is not an operating system?", options: ["DOS", "MAC", "Windows", "Oracle", "Linux"], correct: 3 },
+  { question: "Identify the one which is not a networking device.", options: ["Router", "Switch", "Traffic Analyzer", "Hub", "Bridge"], correct: 2 },
+  { question: "Total number of layers in OSI model is", options: ["3", "5", "7", "9", "10"], correct: 2 }
 ];
 
 let current = 0,
